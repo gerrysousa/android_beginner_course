@@ -11,7 +11,7 @@ INTRODUÇÃO
 [X] 6. Kotlin - Aula 007 - Variáveis
 
 LEITURA DE DADOS
-[	] 7. Entrada de dados com ReadLine
+[x] 7. Entrada de dados com ReadLine
 [	] 8. Entrada de dados com JOptionPane
 
 OPERADORES LOGIGOS
