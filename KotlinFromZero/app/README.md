@@ -8,7 +8,7 @@ INTRODUÇÃO
 [x] 3. Variáveis e Sintaxe
 [x] 4. Tipos Pirmitivos
 [x] 5. Conversão de Tipos Pirmitivos
-[	] 6. Kotlin - Aula 007 - Variáveis
+[X] 6. Kotlin - Aula 007 - Variáveis
 
 LEITURA DE DADOS
 [	] 7. Entrada de dados com ReadLine
