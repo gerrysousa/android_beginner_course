@@ -7,7 +7,7 @@ INTRODUÇÃO
 [x] 2. Fundamentos
 [x] 3. Variáveis e Sintaxe
 [x] 4. Tipos Pirmitivos
-[	] 5. Conversão de Tipos Pirmitivos
+[x] 5. Conversão de Tipos Pirmitivos
 [	] 6. Kotlin - Aula 007 - Variáveis
 
 LEITURA DE DADOS
