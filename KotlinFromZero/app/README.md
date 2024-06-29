@@ -5,7 +5,7 @@ Conteúdo do curso
 INTRODUÇÃO
 [x] 1. Introdução
 [x] 2. Fundamentos
-[	] 3. Variáveis e Sintaxe
+[x] 3. Variáveis e Sintaxe
 [	] 4. Tipos Pirmitivos
 [	] 5. Conversão de Tipos Pirmitivos
 [	] 6. Kotlin - Aula 007 - Variáveis
