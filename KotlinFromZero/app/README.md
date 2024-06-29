@@ -4,7 +4,7 @@ https://www.udemy.com/course/kotlin-aprenda-do-zero-modulo-basico/
 Conteúdo do curso
 INTRODUÇÃO
 [x] 1. Introdução
-[	] 2. Fundamentos
+[x] 2. Fundamentos
 [	] 3. Variáveis e Sintaxe
 [	] 4. Tipos Pirmitivos
 [	] 5. Conversão de Tipos Pirmitivos
