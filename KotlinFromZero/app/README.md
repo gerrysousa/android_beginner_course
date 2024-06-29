@@ -6,7 +6,7 @@ INTRODUÇÃO
 [x] 1. Introdução
 [x] 2. Fundamentos
 [x] 3. Variáveis e Sintaxe
-[	] 4. Tipos Pirmitivos
+[x] 4. Tipos Pirmitivos
 [	] 5. Conversão de Tipos Pirmitivos
 [	] 6. Kotlin - Aula 007 - Variáveis
 
