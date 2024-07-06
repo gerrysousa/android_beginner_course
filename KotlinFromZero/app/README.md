@@ -28,18 +28,18 @@ LISTA DE DADOS
 [x] 15. ArrayList
 
 DESAFIO DO DADO
-16. Kotlin - Aula 013 - Desafio do Dado
+[x] 16. Desafio do Dado
 
 ESTRUTURA DE REPETIÇÃO
-[	] 17. Kotlin - Aula 016 - Estrutura de repetição while
-[	] 18. Kotlin - Aula 017 - Estrutura de repetição do while
-[	] 19. Kotlin - Aula 018 - Estrutura de repetição for
-[	] 20. Kotlin - Aula 019 - Estrutura de repetição forEach
+[	] 17. Estrutura de repetição while
+[	] 18. Estrutura de repetição do while
+[	] 19. Estrutura de repetição for
+[	] 20. Estrutura de repetição forEach
 
 FINAL
-[	] 21. Kotlin - Aula 020 - Funções
-[	] 22. Kotlin - Aula 021 - Valores padrões
-[	] 23. Kotlin - Aula 022 - Fim do módulo básico
+[	] 21. Funções
+[	] 22. Valores padrões
+[	] 23. Fim do módulo básico
 
 
 ```
