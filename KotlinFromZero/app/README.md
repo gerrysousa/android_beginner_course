@@ -15,7 +15,7 @@ LEITURA DE DADOS
 [NO] 8. Entrada de dados com JOptionPane
 
 OPERADORES LOGIGOS
-[	] 9. Kotlin - Aula 008 - Operadores Lógicos
+[x] 9. Kotlin - Aula 008 - Operadores Lógicos
 [	] 10. Kotlin - Aula 010 - Operadores de Comparação
 
 OPERADORES CONDICIONAIS
