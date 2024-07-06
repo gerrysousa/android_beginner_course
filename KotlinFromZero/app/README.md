@@ -24,7 +24,7 @@ OPERADORES CONDICIONAIS
 [X] 13. Condicional When
 
 LISTA DE DADOS
-[	] 14. Array
+[X] 14. Array
 [	] 15. ArrayList
 
 DESAFIO DO DADO
