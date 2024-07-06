@@ -21,7 +21,7 @@ OPERADORES LOGIGOS
 OPERADORES CONDICIONAIS
 [x] 11. Operadores de Atribuição
 [x] 12. Condicional If Else
-[	] 13. Condicional When
+[X] 13. Condicional When
 
 LISTA DE DADOS
 [	] 14. Array
