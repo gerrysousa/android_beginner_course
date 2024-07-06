@@ -33,7 +33,7 @@ DESAFIO DO DADO
 ESTRUTURA DE REPETIÇÃO
 [x] 17. Estrutura de repetição while
 [X] 18. Estrutura de repetição do while
-[	] 19. Estrutura de repetição for
+[x] 19. Estrutura de repetição for
 [	] 20. Estrutura de repetição forEach
 
 FINAL
