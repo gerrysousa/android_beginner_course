@@ -15,17 +15,17 @@ LEITURA DE DADOS
 [NO] 8. Entrada de dados com JOptionPane
 
 OPERADORES LOGIGOS
-[x] 9. Kotlin - Aula 008 - Operadores Lógicos
-[x] 10. Kotlin - Aula 010 - Operadores de Comparação
+[x] 9. Operadores Lógicos
+[x] 10. Operadores de Comparação
 
 OPERADORES CONDICIONAIS
-[x] 11. Kotlin - Aula 009 - Operadores de Atribuição
-[	] 12. Kotlin - Aula 011 - Condicional If Else
-[	] 13. Kotlin - Aula 012 - Condicional When
+[x] 11. Operadores de Atribuição
+[x] 12. Condicional If Else
+[	] 13. Condicional When
 
 LISTA DE DADOS
-[	] 14. Kotlin - Aula 014 - Array
-[	] 15. Kotlin - Aula 015 - ArrayList
+[	] 14. Array
+[	] 15. ArrayList
 
 DESAFIO DO DADO
 16. Kotlin - Aula 013 - Desafio do Dado
