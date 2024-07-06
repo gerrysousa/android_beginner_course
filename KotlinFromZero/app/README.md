@@ -25,7 +25,7 @@ OPERADORES CONDICIONAIS
 
 LISTA DE DADOS
 [X] 14. Array
-[	] 15. ArrayList
+[x] 15. ArrayList
 
 DESAFIO DO DADO
 16. Kotlin - Aula 013 - Desafio do Dado
