@@ -19,7 +19,7 @@ OPERADORES LOGIGOS
 [x] 10. Kotlin - Aula 010 - Operadores de Comparação
 
 OPERADORES CONDICIONAIS
-[	] 11. Kotlin - Aula 009 - Operadores de Atribuição
+[x] 11. Kotlin - Aula 009 - Operadores de Atribuição
 [	] 12. Kotlin - Aula 011 - Condicional If Else
 [	] 13. Kotlin - Aula 012 - Condicional When
 
