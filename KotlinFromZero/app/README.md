@@ -12,7 +12,7 @@ INTRODUÇÃO
 
 LEITURA DE DADOS
 [x] 7. Entrada de dados com ReadLine
-[	] 8. Entrada de dados com JOptionPane
+[NO] 8. Entrada de dados com JOptionPane
 
 OPERADORES LOGIGOS
 [	] 9. Kotlin - Aula 008 - Operadores Lógicos
@@ -40,3 +40,18 @@ FINAL
 [	] 21. Kotlin - Aula 020 - Funções
 [	] 22. Kotlin - Aula 021 - Valores padrões
 [	] 23. Kotlin - Aula 022 - Fim do módulo básico
+
+
+```
+package com.kotlinfromzero
+import javax.swing.JOptionPane
+
+fun main(args: Array<String>) {
+    println("Input de dados via interface  import javax.swing.JOptionPane")
+    val name = JOptionPane.showInputDialog("Digite seu nome")
+
+    JOptionPane.showMessageDialog(null, "Olá $name")
+}
+
+
+```
