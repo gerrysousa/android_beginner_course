@@ -16,7 +16,7 @@ LEITURA DE DADOS
 
 OPERADORES LOGIGOS
 [x] 9. Kotlin - Aula 008 - Operadores Lógicos
-[	] 10. Kotlin - Aula 010 - Operadores de Comparação
+[x] 10. Kotlin - Aula 010 - Operadores de Comparação
 
 OPERADORES CONDICIONAIS
 [	] 11. Kotlin - Aula 009 - Operadores de Atribuição
