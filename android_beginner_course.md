@@ -24,17 +24,9 @@ Seção 9: Configuracao emulador - Windows, Linux e Mac
 Seção 10: Layout - Conceitos iniciais
 [x] - 52. Conceitos e definições de Layout
 [x] - 53. LinearLayout
-[	] - 54. Atributos comuns de layout
+[x] - 54. Atributos comuns de layout
 
 Seção 11: Aplicativo 1 - Conversão de moedas
-[	] - 55. O que vou aprender nesta seção?
-[	] - 56. Criação do projeto
-[	] - 57. Estrutura de um projeto Android
-[	] - 58. Convenções de código
-[	] - 59. Criação dos elementos de Interface
-[	] - 52. Conceitos e definições de Layout
-[	] - 53. LinearLayout
-[	] - 54. Atributos comuns de layout
 [	] - 55. O que vou aprender nesta seção?
 [	] - 56. Criação do projeto
 [	] - 57. Estrutura de um projeto Android
@@ -73,3 +65,6 @@ Seção 14: Encerramento
 
 ====================================================================================================
 
+Observações:
+Aula 54: Atributos comuns de layout
+- Margin é fora do elemento, padding é dentro do elemento
