@@ -1,7 +1,9 @@
 package com.example.currencyconversion;
 
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,15 +13,25 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    private ViewHolder mViewHolder = new ViewHolder();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        EditText valor = findViewById(R.id.edit_valor);
-        valor.getText();
+        this.mViewHolder.editValue = findViewById(R.id.edit_valor);
+        this.mViewHolder.textDollar = findViewById(R.id.text_dolar);
+        this.mViewHolder.textEuro = findViewById(R.id.text_euro);
+        this.mViewHolder.btnCalculate = findViewById(R.id.button_calculate);
     }
 
+    private static class ViewHolder {
+        EditText editValue;
+        TextView textDollar;
+        TextView textEuro;
+        Button btnCalculate;
+    }
 
 }
