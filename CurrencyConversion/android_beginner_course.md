@@ -37,7 +37,7 @@ Seção 11: Aplicativo 1 - Conversão de moedas
 [x] - 62. Adicionando evento de click
 [x] - 63. Validação de dados
 [x] - 64. Implementando lógica da aplicação
-[	] - 65. Layout - Botão e cores
+[x] - 65. Layout - Botão e cores
 [	] - 66. Layout - Textos
 
 Seção 12: Aplicativo 2 - Festa de final de ano
