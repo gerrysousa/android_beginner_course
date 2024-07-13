@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,12 +29,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.mViewHolder.btnCalculate = findViewById(R.id.button_calculate);
 
         this.mViewHolder.btnCalculate.setOnClickListener(this);
+
+        this.clearValues();
+    }
+
+    private void clearValues() {
+        this.mViewHolder.editValue.setText("");
+        this.mViewHolder.textDollar.setText("");
+        this.mViewHolder.textEuro.setText("");
     }
 
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.button_calculate) {
             //this.calculate();
+            String value = this.mViewHolder.editValue.getText().toString();
+            if ("".equals(value))            {
+                Toast.makeText(this, "Digite um valor", Toast.LENGTH_LONG).show();
+            }else {
+
+            }
+
         }
     }
 
