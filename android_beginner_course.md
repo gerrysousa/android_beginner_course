@@ -30,7 +30,7 @@ Seção 11: Aplicativo 1 - Conversão de moedas
 [x] - 55. O que vou aprender nesta seção?
 [x] - 56. Criação do projeto
 [x] - 57. Estrutura de um projeto Android
-[	] - 58. Convenções de código
+[x] - 58. Convenções de código
 [	] - 59. Criação dos elementos de Interface
 [	] - 60. Identificando Elementos
 [	] - 61. Padrão ViewHolder
