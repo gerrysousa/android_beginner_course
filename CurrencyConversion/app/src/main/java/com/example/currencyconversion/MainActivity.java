@@ -1,6 +1,7 @@
 package com.example.currencyconversion;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -11,7 +12,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ViewHolder mViewHolder = new ViewHolder();
 
@@ -25,6 +26,15 @@ public class MainActivity extends AppCompatActivity {
         this.mViewHolder.textDollar = findViewById(R.id.text_dolar);
         this.mViewHolder.textEuro = findViewById(R.id.text_euro);
         this.mViewHolder.btnCalculate = findViewById(R.id.button_calculate);
+
+        this.mViewHolder.btnCalculate.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View view) {
+        if (view.getId() == R.id.button_calculate) {
+            //this.calculate();
+        }
     }
 
     private static class ViewHolder {
