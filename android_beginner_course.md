@@ -28,7 +28,7 @@ Seção 10: Layout - Conceitos iniciais
 
 Seção 11: Aplicativo 1 - Conversão de moedas
 [x] - 55. O que vou aprender nesta seção?
-[	] - 56. Criação do projeto
+[x] - 56. Criação do projeto
 [	] - 57. Estrutura de um projeto Android
 [	] - 58. Convenções de código
 [	] - 59. Criação dos elementos de Interface
