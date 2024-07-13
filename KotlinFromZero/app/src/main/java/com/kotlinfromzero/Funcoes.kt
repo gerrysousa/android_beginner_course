@@ -2,7 +2,7 @@ package com.kotlinfromzero
 
 fun main() {
     /*
-    Estrutura de repetição For
+    Funçoes
     * */
 
    val result = somar(10, 20)

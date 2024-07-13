@@ -38,7 +38,7 @@ ESTRUTURA DE REPETIÇÃO
 
 FINAL
 [x] 21. Funções
-[	] 22. Valores padrões
+[x] 22. Valores padrões
 [	] 23. Fim do módulo básico
 
 
