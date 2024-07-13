@@ -23,7 +23,7 @@ Seção 9: Configuracao emulador - Windows, Linux e Mac
 
 Seção 10: Layout - Conceitos iniciais
 [x] - 52. Conceitos e definições de Layout
-[	] - 53. LinearLayout
+[x] - 53. LinearLayout
 [	] - 54. Atributos comuns de layout
 
 Seção 11: Aplicativo 1 - Conversão de moedas
