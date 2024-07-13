@@ -32,7 +32,7 @@ Seção 11: Aplicativo 1 - Conversão de moedas
 [x] - 57. Estrutura de um projeto Android
 [x] - 58. Convenções de código
 [x] - 59. Criação dos elementos de Interface
-[	] - 60. Identificando Elementos
+[x] - 60. Identificando Elementos
 [	] - 61. Padrão ViewHolder
 [	] - 62. Adicionando evento de click
 [	] - 63. Validação de dados
