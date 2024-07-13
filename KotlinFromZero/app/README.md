@@ -37,7 +37,7 @@ ESTRUTURA DE REPETIÇÃO
 [x] 20. Estrutura de repetição forEach
 
 FINAL
-[	] 21. Funções
+[x] 21. Funções
 [	] 22. Valores padrões
 [	] 23. Fim do módulo básico
 
