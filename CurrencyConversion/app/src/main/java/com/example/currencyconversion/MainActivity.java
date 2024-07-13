@@ -47,7 +47,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if ("".equals(value))            {
                 Toast.makeText(this, "Digite um valor", Toast.LENGTH_LONG).show();
             }else {
+                Double valueDouble = Double.parseDouble(value);
 
+                this.mViewHolder.textDollar.setText(String.format("%.2f", valueDouble / 5.0));
+                this.mViewHolder.textEuro.setText(String.format("%.2f", valueDouble / 6.0));
             }
 
         }

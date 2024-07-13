@@ -36,7 +36,7 @@ Seção 11: Aplicativo 1 - Conversão de moedas
 [x] - 61. Padrão ViewHolder
 [x] - 62. Adicionando evento de click
 [x] - 63. Validação de dados
-[	] - 64. Implementando lógica da aplicação
+[x] - 64. Implementando lógica da aplicação
 [	] - 65. Layout - Botão e cores
 [	] - 66. Layout - Textos
 
