@@ -38,7 +38,7 @@ Seção 11: Aplicativo 1 - Conversão de moedas
 [x] - 63. Validação de dados
 [x] - 64. Implementando lógica da aplicação
 [x] - 65. Layout - Botão e cores
-[	] - 66. Layout - Textos
+[x] - 66. Layout - Textos
 
 Seção 12: Aplicativo 2 - Festa de final de ano
 [	] - 67. O que vou aprender nesta seção?
