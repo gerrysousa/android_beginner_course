@@ -34,7 +34,7 @@ ESTRUTURA DE REPETIÇÃO
 [x] 17. Estrutura de repetição while
 [X] 18. Estrutura de repetição do while
 [x] 19. Estrutura de repetição for
-[	] 20. Estrutura de repetição forEach
+[x] 20. Estrutura de repetição forEach
 
 FINAL
 [	] 21. Funções
