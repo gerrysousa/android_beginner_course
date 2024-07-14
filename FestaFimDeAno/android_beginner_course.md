@@ -53,7 +53,7 @@ Seção 12: Aplicativo 2 - Festa de final de ano
 - [x] 76. Salvando confirmação de presença
 - [x] 77. Obtendo confirmação na MainActivity
 - [x] 78. Ciclo de vida de Activity
-- [	] 79. OnResume - MainActivity
+- [x] 79. OnResume - MainActivity
 - [	] 80. Passando dados entre Activities
 - [	] 81. Finalizando o Layout
 

@@ -43,7 +43,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         String daysLeft = String.format("%s %s", this.getDaysLeft(), getString(R.string.days));
         this.mViewHolder.textDaysLeft.setText(daysLeft);
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
         this.verifyConfirmation();
     }
 
