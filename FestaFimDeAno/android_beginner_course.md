@@ -54,7 +54,7 @@ Seção 12: Aplicativo 2 - Festa de final de ano
 - [x] 77. Obtendo confirmação na MainActivity
 - [x] 78. Ciclo de vida de Activity
 - [x] 79. OnResume - MainActivity
-- [	] 80. Passando dados entre Activities
+- [x] 80. Passando dados entre Activities
 - [	] 81. Finalizando o Layout
 
 Seção 13: Desafio - Festa de Fim de Ano

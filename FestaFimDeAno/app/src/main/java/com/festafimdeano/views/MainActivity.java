@@ -54,7 +54,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.btn_confirm) {
+            String presence = this.securityPreferences.getStoredString(PRESENCE_KEY);
             Intent intent = new Intent(this, DetailsActivity.class);
+            intent.putExtra(PRESENCE_KEY, presence);
             startActivity(intent);
         }
     }
