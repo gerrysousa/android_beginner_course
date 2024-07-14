@@ -11,8 +11,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.festafimdeano.R;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private ViewHolder mViewHolder = new ViewHolder();
+    private static SimpleDateFormat SIMPLE_DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +29,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.mViewHolder.btnConfirm = findViewById(R.id.btn_confirm);
 
         this.mViewHolder.btnConfirm.setOnClickListener(this);
+
+        //Dates
+        this.mViewHolder.textToday.setText(SIMPLE_DATE_FORMAT.format(Calendar.getInstance().getTime()));
+
+        String daysLeft = String.format("%s %s", this.getDaysLeft(), getString(R.string.days));
+        this.mViewHolder.textDaysLeft.setText(daysLeft);
     }
 
     @Override
@@ -33,14 +43,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(this, DetailsActivity.class);
             startActivity(intent);
         }
-
     }
 
     private static class ViewHolder {
         TextView textToday;
         TextView textDaysLeft;
-        ;
         Button btnConfirm;
     }
 
+    private int getDaysLeft() {
+        //Today
+        Calendar today = Calendar.getInstance();
+        int todayInt = today.get(Calendar.DAY_OF_YEAR);
+
+        //Last day of year
+        Calendar lastDayOfYear = Calendar.getInstance();
+        int lastDayOfYearInt = lastDayOfYear.getActualMaximum(Calendar.DAY_OF_YEAR);
+
+        return lastDayOfYearInt - todayInt;
+    }
 }
