@@ -58,7 +58,7 @@ Seção 12: Aplicativo 2 - Festa de final de ano
 - [x] 81. Finalizando o Layout
 
 Seção 13: Desafio - Festa de Fim de Ano
-- [	]82. Proposta & Instruções
+- [x] 82. Proposta & Instruções
 
 Seção 14: Encerramento
 - [	]83. Aula bônus - Cupons
