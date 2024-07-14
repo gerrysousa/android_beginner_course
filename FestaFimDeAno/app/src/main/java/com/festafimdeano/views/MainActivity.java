@@ -1,18 +1,15 @@
-package com.festafimdeano;
+package com.festafimdeano.views;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-import androidx.recyclerview.widget.RecyclerView;
+
+import com.festafimdeano.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private ViewHolder mViewHolder = new ViewHolder();
@@ -32,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        if (view.getId() == R.id.btn_confirm){
+        if (view.getId() == R.id.btn_confirm) {
             Intent intent = new Intent(this, DetailsActivity.class);
             startActivity(intent);
         }
@@ -41,7 +38,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private static class ViewHolder {
         TextView textToday;
-        TextView textDaysLeft;;
+        TextView textDaysLeft;
+        ;
         Button btnConfirm;
     }
 

@@ -48,7 +48,7 @@ Seção 12: Aplicativo 2 - Festa de final de ano
 - [x] 71. Criação de Activity - DetailsActivity
 - [x] 72. Elementos de Interface - DetailsActivity
 - [x] 73. Navegando entre activities
-- [	] 74. SharedPreferences
+- [x] 74. SharedPreferences
 - [	] 75. Lógica - Dia atual e dias restantes
 - [	] 76. Salvando confirmação de presença
 - [	] 77. Obtendo confirmação na MainActivity
