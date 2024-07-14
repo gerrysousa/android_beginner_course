@@ -46,7 +46,7 @@ Seção 12: Aplicativo 2 - Festa de final de ano
 - [x] 69. Alteração de ícone
 - [x] 70. Elementos de interface - MainActivity
 - [x] 71. Criação de Activity - DetailsActivity
-- [	] 72. Elementos de Interface - DetailsActivity
+- [x] 72. Elementos de Interface - DetailsActivity
 - [	] 73. Navegando entre activities
 - [	] 74. SharedPreferences
 - [	] 75. Lógica - Dia atual e dias restantes
