@@ -44,7 +44,7 @@ Seção 12: Aplicativo 2 - Festa de final de ano
 - [x] 67. O que vou aprender nesta seção?
 - [x] 68. Criação do projeto
 - [x] 69. Alteração de ícone
-- [	] 70. Elementos de interface - MainActivity
+- [x] 70. Elementos de interface - MainActivity
 - [	] 71. Criação de Activity - DetailsActivity
 - [	] 72. Elementos de Interface - DetailsActivity
 - [	] 73. Navegando entre activities
