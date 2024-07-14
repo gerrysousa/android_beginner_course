@@ -50,7 +50,7 @@ Seção 12: Aplicativo 2 - Festa de final de ano
 - [x] 73. Navegando entre activities
 - [x] 74. SharedPreferences
 - [x] 75. Lógica - Dia atual e dias restantes
-- [	] 76. Salvando confirmação de presença
+- [x] 76. Salvando confirmação de presença
 - [	] 77. Obtendo confirmação na MainActivity
 - [	] 78. Ciclo de vida de Activity
 - [	] 79. OnResume - MainActivity
