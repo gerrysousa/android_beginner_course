@@ -3,4 +3,7 @@
     <string name="dias_restantes_para_a_festa_do_fim_de_ano">Dias Restantes para a festa do fim de ano</string>
     <string name="voce_vai_participar">Voce vai participar?</string>
     <string name="days">dias</string>
+    <string name="not_confirmed">Não Confirmado</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
 </resources>

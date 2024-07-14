@@ -13,8 +13,8 @@
         android:id="@+id/today"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginTop="30dp"
+        android:gravity="center"
         android:text="31/12/2020" />
 
     <View

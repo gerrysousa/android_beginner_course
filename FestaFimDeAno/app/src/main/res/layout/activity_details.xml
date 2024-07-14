@@ -10,10 +10,10 @@
     tools:context=".views.DetailsActivity">
 
     <TextView
-        android:layout_marginTop="30dp"
         android:id="@+id/text_days_left"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:gravity="center"
         android:text="@string/voce_vai_participar" />
 

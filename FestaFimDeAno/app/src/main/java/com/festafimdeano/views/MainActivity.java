@@ -1,5 +1,9 @@
 package com.festafimdeano.views;
 
+import static com.festafimdeano.constants.FimDeAnoConstants.CONFIRMATION_NO;
+import static com.festafimdeano.constants.FimDeAnoConstants.CONFIRMATION_YES;
+import static com.festafimdeano.constants.FimDeAnoConstants.PRESENCE_KEY;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +14,7 @@ import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.festafimdeano.R;
+import com.festafimdeano.data.SecurityPreferences;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -17,6 +22,8 @@ import java.util.Calendar;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private ViewHolder mViewHolder = new ViewHolder();
     private static SimpleDateFormat SIMPLE_DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy");
+    private SecurityPreferences securityPreferences;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,12 +36,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.mViewHolder.btnConfirm = findViewById(R.id.btn_confirm);
 
         this.mViewHolder.btnConfirm.setOnClickListener(this);
+        this.securityPreferences = new SecurityPreferences(this);
 
         //Dates
         this.mViewHolder.textToday.setText(SIMPLE_DATE_FORMAT.format(Calendar.getInstance().getTime()));
 
         String daysLeft = String.format("%s %s", this.getDaysLeft(), getString(R.string.days));
         this.mViewHolder.textDaysLeft.setText(daysLeft);
+
+        this.verifyConfirmation();
     }
 
     @Override
@@ -61,5 +71,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int lastDayOfYearInt = lastDayOfYear.getActualMaximum(Calendar.DAY_OF_YEAR);
 
         return lastDayOfYearInt - todayInt;
+    }
+
+    private void verifyConfirmation() {
+        String presence = this.securityPreferences.getStoredString(PRESENCE_KEY);
+        if (CONFIRMATION_YES.equals(presence)) {
+            this.mViewHolder.btnConfirm.setText(getString(R.string.yes));
+        } else if (CONFIRMATION_NO.equals(presence)) {
+            this.mViewHolder.btnConfirm.setText(getString(R.string.no));
+        } else {
+            this.mViewHolder.btnConfirm.setText(getString(R.string.not_confirmed));
+        }
     }
 }
