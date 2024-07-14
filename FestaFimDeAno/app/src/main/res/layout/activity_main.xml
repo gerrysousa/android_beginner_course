@@ -15,7 +15,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:gravity="center"
-        android:text="31/12/2020" />
+        android:text="31/12/2020"
+        android:textSize="26sp" />
 
     <View
         android:layout_width="match_parent"
@@ -30,7 +31,8 @@
         android:layout_below="@id/today"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="160dp"
-        android:text="@string/dias_restantes_para_a_festa_do_fim_de_ano" />
+        android:text="@string/dias_restantes_para_a_festa_do_fim_de_ano"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/text_days_left"
@@ -39,7 +41,9 @@
         android:layout_below="@+id/text_label_days_left"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="365 dias" />
+        android:text="365 dias"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
 
 
     <Button
@@ -48,5 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="16dp"
         android:text="Sim/Não/Não Confirmado" />
 </RelativeLayout>
