@@ -45,7 +45,7 @@ Seção 12: Aplicativo 2 - Festa de final de ano
 - [x] 68. Criação do projeto
 - [x] 69. Alteração de ícone
 - [x] 70. Elementos de interface - MainActivity
-- [	] 71. Criação de Activity - DetailsActivity
+- [x] 71. Criação de Activity - DetailsActivity
 - [	] 72. Elementos de Interface - DetailsActivity
 - [	] 73. Navegando entre activities
 - [	] 74. SharedPreferences
@@ -75,4 +75,47 @@ Aula 59
 ```
 android:layout_width="match_parent"
 android:layout_height="match_parent"/>
+```
+
+Aula 71
+- Se quiser mudar a activity que vai iniciar, basta ir no arquivo manifest e colocar essas linhas dentro do corpo da activity
+```
+ <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+```
+
+Ficaria assim se colocar a DetailsActivity para iniciar
+```
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FestaFimDeAno"
+        tools:targetApi="31">
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" 
+              <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />        
+    </application>
+
+</manifest>
 ```
