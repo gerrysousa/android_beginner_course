@@ -61,7 +61,7 @@ Seção 13: Desafio - Festa de Fim de Ano
 - [x] 82. Proposta & Instruções
 
 Seção 14: Encerramento
-- [	]83. Aula bônus - Cupons
+- [x]83. Aula bônus - Cupons
 
 ====================================================================================================
 
